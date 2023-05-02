@@ -1,0 +1,79 @@
+.logocac{
+    height: 4rem;
+}
+
+.bg-header{
+    background-color:rgb(66, 66, 66);
+}
+
+.headerItem{
+    color: rgb(177, 177, 177);
+}
+
+.headerCompra{
+    color: rgb(4, 160, 4);
+}
+
+.bg-primerFondo{
+    background-image: url("../assets/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom;
+    height: 45rem;
+    width: 100%;
+}
+
+.bg-primerFondo::before{
+    left: 0;
+    width: 100%;
+    height: 45rem;
+    opacity: 0.5;
+    background-color: #000;
+    position: absolute;
+    display: block;
+    content: "";
+}
+
+.caja-primerFondo{
+    margin-left: 60%;
+    padding-top: 20%;
+    position: relative;
+}
+
+@media screen and (max-width: 1025px) {
+    .bg-primerFondo{
+        height: 35rem;
+        align-content: center
+    }
+
+    .bg-primerFondo::before{
+        height: 25rem;
+    }
+
+    .caja-primerFondo{
+        margin-left: 20%;
+        padding-top: 10%;
+        position: relative;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .bg-primerFondo{
+        height: 25rem;
+        align-content: center
+    }
+
+    .bg-primerFondo::before{
+        height: 25rem;
+    }
+
+
+    .caja-primerFondo{
+        width: 250px;
+        margin: 0;
+        padding: 0  ;
+        padding-top: 0;
+        position: relative;
+        
+    }
+  }
