@@ -38,6 +38,16 @@
     margin-left: 60%;
     padding-top: 20%;
     position: relative;
+    width: 32rem;
+}
+
+
+.foto {
+    height: 28rem;
+}
+
+.bg-footer{
+    background-color:#1E4860;
 }
 
 @media screen and (max-width: 1025px) {
@@ -75,5 +85,6 @@
         padding-top: 0;
         position: relative;
         
+   
     }
   }
