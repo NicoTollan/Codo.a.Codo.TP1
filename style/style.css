@@ -50,6 +50,31 @@
     background-color:#1E4860;
 }
 
+.card {
+    margin-bottom: 20px;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: default;
+  }
+
+  .card-title,
+    .card-text,
+    .text-muted {
+      text-align: center;
+    }
+
+.selected {
+        border: 3px solid blue;
+      }
+
+ .resaltado-celeste {
+        background-color: #c3e6ec;
+        color: #000;
+      }
+
 @media screen and (max-width: 1025px) {
     .bg-primerFondo{
         height: 35rem;
